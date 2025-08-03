@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Timer</title>
+    <link rel="shortcut icon" href="img/egg-15.png" type="image/x-icon">
+    <style>
+        
+        body {
+            font-family: monospace;
+            background-color: antiquewhite;
+            font-size: 2em;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 150px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="justify-content: center; display: flex;">จับเวลาต้มไข่</h3>
+    <div class="container">
+        <div class="card">
+            <a href="timer.html?time=3&img=img/egg-3.png">
+                <img src="img/egg-3.png" alt="Soft Boiled Egg">
+                ไข่ลวก : 3 นาที
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="timer.html?time=5&img=img/egg-5.png">
+                <img src="img/egg-5.png" alt="Medium Boiled Egg">
+                ไข่ยางมะตูม : 5 นาที
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="timer.html?time=6&img=img/egg-6.png">
+                <img src="img/egg-6.png" alt="Almost Hard Boiled Egg">
+                ไข่เกือบสุก : 6 นาที
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="timer.html?time=7&img=img/egg-7.png">
+                <img src="img/egg-7.png" alt="Hard Boiled Egg">
+                ไข่ต้มสุกพอดี : 7 นาที
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="timer.html?time=10&img=img/egg-10.png">
+                <img src="img/egg-10.png" alt="Very Hard Boiled Egg">
+                ไข่ต้มสุกมาก : 10 นาที
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="timer.html?time=15&img=img/egg-15.png">
+                <img src="img/egg-15.png" alt="Onsen Egg">
+                ไข่ออนเซ็น : 15 นาที
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

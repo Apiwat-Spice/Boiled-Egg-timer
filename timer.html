@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: antiquewhite;
+            font-size: 2em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+        #timer {
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="egg-image" src="" alt="Boiling Egg">
+        <div id="timer"></div>
+        <button id="cancel">กลับหน้าหลัก (ยกเลิก)</button>
+    </div>
+</body>
+
+</html>
